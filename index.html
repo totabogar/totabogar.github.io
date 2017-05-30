@@ -1,17 +1,859 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TotaBogar Web Page</title>
+    <title>Family Memories</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- THEME STYLES -->
+    <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+   
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+         .bg {
+             /* The image used */
+             background-image: url("img/Family.jpg");
+             /* Full height */
+             height: 100%;
+             /* Center and scale the image nicely */
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+        .image { 
+            position: relative; 
+            width: 100%; /* for IE 6 */
+        }
+
+        h1 { 
+            position: absolute; 
+            top: 100px; 
+            left: 0; 
+            width: 100%;
+
+        }
+        h1 span { 
+            color: black;
+            font: bold 48px/45px Helvetica, Sans-Serif; 
+            letter-spacing: -1px;  
+            background: rgb(0, 0, 0); /* fallback color */
+            background: transparent;
+            padding: 20px;
+        }
+        h1 span.spacer {
+            padding:0 5px;
+        }
+    </style>
 </head>
 
 <!-- BODY -->
-<body>
-    <h1>Hello there.</h1>
-<h2>Page is comming soon ...</h2>
-    
-<img src="https://i.ytimg.com/vi/hJ4i7MMKqOE/1.jpg" width="200" height="150"/>
+<body id="body" data-spy="scroll" data-target=".header">
 
+   
+<!--========== HEADER ==========-->
+<header class="header navbar-fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="menu-container js_nav-item">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="toggle-icon"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse nav-collapse">
+                <div class="menu-container">
+                    <ul class="nav navbar-nav navbar-nav-right">
+                        <li class="dropdown js_nav-item nav-item"><a class="dropbtn nav-item-child nav-item-hover" href="#memories">Memories</a>
+                            <div class="dropdown-content">
+                                <a href="#2017">2017</a>
+                                <a href="#2016">2016</a>
+                                <a href="#2015">2015</a>
+                                <a href="#2014">2014</a>
+                                <a href="#2013">2013</a>
+                                <a href="#2012">2012</a>
+                                <a href="#2011">2011</a>
+                                <a href="#2010">2010</a>
+                                <a href="#2009">2009</a>
+                                <a href="#2008">2008</a>
+                                <a href="#2007">2007</a>
+                            </div>
+                        </li>
+                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+           
+            <!-- End Navbar Collapse -->
+        </div>
+    </nav>
+    <!-- Navbar -->
+</header>
+<!--========== END HEADER ==========-->
+    
+<!--<div id="home" class="bg"></div>-->
+    
+<div class="bg">
+
+    
+      
+    <h1><span>Welcome!</span></h1>
+
+</div>
+
+<!-- <div id="home">
+     <div class="jumbotron">
+        <div class="container text-left margin-t-60">
+            <div class="bg"></div>
+            <div class="promo-block-title">Welcome to our family page.</div>
+        </div>
+    </div> 
+</div> -->
+
+<div id="memories">  
+    <div class="container text-center margin-t-60">    
+        <div class="row">
+            <div class="col-sm-3 margin-t-50">
+                <div class="text-left sm-text-left">
+                    <br/><br/>
+                    <h2>Memories</h2>
+                </div>
+            </div>
+            
+            <div class="col-sm-9 margin-t-50">
+            <!-- Masonry Grid -->
+                <!-- 2017 -->
+                <div id="2017" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2017</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+                        
+                        <!-- 1 -->
+                        <!-- End Of School Year 2017 -->
+                        <!-- End End Of School Year 2017 -->
+                        
+                        <!-- 2 -->
+                        <!-- Victor Gala Dinner 2017 -->
+                        <!-- End Victor Gala Dinner 2017 -->
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Swimming Freestyle 2017 -->
+                            <a href="https://youtu.be/tQGKeH3YmLg" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2017_Marcel_Swimming_Freestyle.jpg" alt="Marcel Swimming Freestyle" style="border: 0" title="2017 May 28, Marcel Swimming Freestyle">
+                                <span style="color: blue; font-weight: bold">Marcel Swimming Freestyle</span>
+                            </a>
+                            <!-- Marcel Swimming Freestyle 2017 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Footbal Part 1 2017 -->
+                            <a href="https://youtu.be/2sz3ag2Qteo" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2017_Marcel_Footbal_Part_1.jpg" alt="Marcel Footbal, part 1" style="border: 0" title="2017 May 27, Marcel Footbal, part 1">
+                                <span style="color: blue; font-weight: bold">Marcel Footbal, part 1</span>
+                            </a>
+                            <!-- End Marcel Footbal Part 1 2017 -->
+                        </div>
+                        
+                        <!-- 5 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Footbal Part 2 2017 -->
+                            <a href="https://youtu.be/ko6Sc5ptEN8" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2017_Marcel_Footbal_Part_2.jpg" alt="Marcel Footbal, part 2" style="border: 0" title="2017 May 27, Marcel Footbal, part 2">
+                                <span style="color: blue; font-weight: bold">Marcel Footbal, part 2</span>
+                            </a>
+                            <!-- End Marcel Footbal Part 2 2017 -->
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Siciliana Concert 2017 -->
+                            <a href="https://youtu.be/0ifnFJkM1gU" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2017_Victor_Siciliana_Concert.jpg" alt="Victor Siciliana Concert" style="border: 0" title="2017 May 18, Victor Siciliana Concert">
+                                <span style="color: blue; font-weight: bold">Victor Siciliana Concert</span>
+                            </a>
+                            <!-- End Siciliana Concert 2017 -->
+                        </div>
+
+                        <!-- 7 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano 2017 -->
+                            <a href="https://youtu.be/u1sii9vZfRw" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2017_Marcel_Piano.jpg" alt="Marcel Piano" style="border: 0" title="2017 Apr 04, Marcel Piano April">
+                                <span style="color: blue; font-weight: bold">Marcel Piano April</span>
+                            </a>
+                            <!-- End Marcel Piano 2017 -->
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- 2016 -->
+                <div id="2016" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2016</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Swimming Freestyle 2016 -->
+                            <a href="https://youtu.be/WUyhgdbIxiw" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2016_Marcel_Swimming_Freestyle.jpg" alt="Marcel Swimming Freestyle" style="border: 0" title="2016 Feb 14, Marcel Swimming Freestyle">
+                                <span style="color: blue; font-weight: bold">Marcel Swimming Freestyle</span>
+                            </a>
+                            <!-- End Marcel Swimming Freestyle 2016 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Swimming Backstroke 2016 -->
+                            <a href="https://youtu.be/n94jAG-41kY" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2016_Marcel_Swimming_Backstroke.jpg" alt="Marcel Swimming Backstroke" style="border: 0" title="2016 Mar 06, Marcel Swimming Backstroke">
+                                <span style="color: blue; font-weight: bold">Marcel Swimming Backstroke</span>
+                            </a>
+                            <!-- End Marcel Swimming Backstroke 2016 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel End Of School Year 2016 -->
+                            <a href="https://youtu.be/RmVc45RFgrk" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2016_Marcel_End_Of_School_Year.jpg" alt="Marcel End Of School Year" style="border: 0" title="2016 Jun 04, Marcel End Of School Year">
+                                <span style="color: blue; font-weight: bold">Marcel End Of School Year</span>
+                            </a>
+                            <!-- End Marcel End Of School Year 2016 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Discus Throw 2016 -->
+                            <a href="https://youtu.be/zC07DFRv5Ws" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2016_Victor_Discus_Throw.jpg" alt="Victor Discus Throw" style="border: 0" title="2016 Sep 20, Victor Discus Throw">
+                                <span style="color: blue; font-weight: bold">Victor Discus Throw</span>
+                            </a>
+                            <!-- End Victor Discus Throw 2016 -->
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- 2015 -->
+                <div id="2015" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2015</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Swimming Freestyle 2015 -->
+                            <a href="https://youtu.be/dLfZSm2KqMc" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Victor_Swimming_Freestyle.jpg" alt="Victor Swimming Freestyle" style="border: 0" title="2015 May 24, Victor Swimming Freestyle">
+                                <span style="color: blue; font-weight: bold">Victor Swimming Freestyle</span>
+                            </a>
+                            <!-- End Victor Swimming Freestyle 2015 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Swimming Butterfly, 2015 -->
+                            <a href="https://youtu.be/uF_kQfCGI-A" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Victor_Swimming_Butterfly.jpg" alt="Victor Swimming Butterfly" style="border: 0" title="2015 May 24, Victor Swimming Butterfly">
+                                <span style="color: blue; font-weight: bold">Victor Swimming Butterfly</span>
+                            </a>
+                            <!-- End Victor Swimming Butterfly, 2015 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Swimming Breaststroke, 2015 -->
+                            <a href="https://youtu.be/W5_C2ICQruc" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Victor_Swimming_Breaststroke.jpg" alt="Victor Swimming Breaststroke" style="border: 0" title="2015 May 24, Victor Swimming Breaststroke">
+                                <span style="color: blue; font-weight: bold">Victor Swimming Breaststroke</span>
+                            </a>
+                            <!-- End Victor Swimming Breaststroke, 2015 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Swimming Backstroke, 2015 -->
+                            <a href="https://youtu.be/hJ4i7MMKqOE" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Victor_Swimming_Backstroke.jpg" alt="Victor Swimming Backstroke" style="border: 0" title="2015 May 24, Victor Swimming Backstroke">
+                                <span style="color: blue; font-weight: bold">Victor Swimming Backstroke</span>
+                            </a>
+                            <!-- End Victor Swimming Backstroke, 2015 -->
+                        </div>
+                    
+                        <!-- 5 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Polo Part 1 2015 -->
+                            <a href="https://youtu.be/inuQ-fi7mGQ" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Marcel_Polo_Part_1.jpg" alt="Marcel Polo, part 1" style="border: 0" title="2015 Nov 29, Marcel Polo, part 1">
+                                <span style="color: blue; font-weight: bold">Marcel Polo, part 1</span>
+                            </a>
+                            <!-- End Marcel Polo Part 1 2015 -->
+                        </div>
+                    
+                        <!-- 6 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Polo Part 2 2015 -->
+                            <a href="https://youtu.be/PdPpVZtREwc" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Marcel_Polo_Part_2.jpg" alt="Marcel Polo, part 2" style="border: 0" title="2015 Nov 29, Marcel Polo, part 2">
+                                <span style="color: blue; font-weight: bold">Marcel Polo, part 2</span>
+                            </a>
+                            <!-- End Marcel Polo Part 2 2015 -->
+                        </div>
+                    
+                        <!-- 7 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Polo Part 3 2015 -->
+                            <a href="https://youtu.be/JawWKBnCAkI" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2015_Marcel_Polo_Part_3.jpg" alt="Marcel Polo, part 3" style="border: 0" title="2015 Nov 29, Marcel Polo, part 3">
+                                <span style="color: blue; font-weight: bold">Marcel Polo, part 3</span>
+                            </a>
+                            <!-- End Marcel Polo Part 3 2015 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2014 -->
+                <div id="2014" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2014</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano Oct 2014 -->
+                            <a href="https://youtu.be/KYqEElB84vk" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2014_Marcel_Piano_Oct.jpg" alt="Marcel Piano October" style="border: 0" title="2014 Oct 24, Marcel Piano">
+                                <span style="color: blue; font-weight: bold">Marcel Piano October</span>
+                            </a>
+                            <!-- End Marcel Piano Oct 2014 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano Nov 2014 -->
+                            <a href="https://youtu.be/uTx50ZC2Mps" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2014_Victor_Piano_Nov.jpg" alt="Victor Piano November" style="border: 0" title="2014 Nov 03, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano November</span>
+                            </a>
+                            <!-- End Victor Piano Nov 2014 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano Nov 2014 -->
+                            <a href="https://youtu.be/eRabF6xicuk" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2014_Marcel_Piano_Nov.jpg" alt="Marcel Piano November" style="border: 0" title="2014 Nov 28, Marcel Piano">
+                                <span style="color: blue; font-weight: bold">Marcel Piano November</span>
+                            </a>
+                            <!-- End Marcel Piano Nov 2014 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Swimming Breaststroke 2014 -->
+                            <a href="https://youtu.be/wtQsr48b1aQ" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2014_Victor_Swimming_Breaststroke.jpg" alt="Victor Swimming Breaststroke" style="border: 0" title="2014 Dec 14, Victor Swimming Breaststroke">
+                                <span style="color: blue; font-weight: bold">Victor Swimming Breaststroke</span>
+                            </a>
+                            <!-- End Victor Swimming Breaststroke 2014 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2013 -->
+                <div id="2013" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2013</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- At Santa 2013 -->
+                            <a href="https://youtu.be/sr1hcEJRuno" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_At_Santa.jpg" alt="At Santa In Lapland" style="border: 0" title="2013 Mar 30, At Santa In Lapland">
+                                <span style="color: blue; font-weight: bold">At Santa In Lapland</span>
+                            </a>
+                            <!-- End At Santa 2013 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano March 2013 -->
+                            <a href="https://youtu.be/FgDDKTLRJUo" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_Marcel_Piano_Mar.jpg" alt="Marcel Piano March" style="border: 0" title="2013 Mar 12, Marcel Piano">
+                                <span style="color: blue; font-weight: bold">Marcel Piano March</span>
+                            </a>
+                            <!-- End Marcel Piano March 2013 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- "Magic" Musical, First Representation 2013-->
+                            <a href="https://youtu.be/4fOTahQBQJA" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_Magic_Musical_First.jpg" alt='"Magic" Musical, First Representation' style="border: 0" title='2013 Apr 05, "Magic" Musical, First Representation'>
+                                <span style="color: blue; font-weight: bold">"Magic" Musical, First Representation</span>
+                            </a>
+                            <!-- End "Magic" Musical, First Representation 2013 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- "Magic" Musical, Second Representation 2013 -->
+                            <a href="https://youtu.be/g80jFWzUoiY" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_Magic_Musical_Second.jpg" alt='"Magic" Musical, Second Representation' style="border: 0" title='2013 Apr 10, "Magic" Musical, Second Representation'>
+                                <span style="color: blue; font-weight: bold">"Magic" Musical, Second Representation</span>
+                            </a>
+                            <!-- End "Magic" Musical, Second Representation 2013 -->
+                        </div>
+
+                        <!-- 5 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano 2013 -->
+                            <a href="https://youtu.be/vAxVk0Yb8Gc" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_Victor_Piano.jpg" alt="Victor Piano" style="border: 0" title="2013 Apr 27, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano</span>
+                            </a>
+                            <!-- End Victor Piano 2013 -->
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano April part 1 2013 -->
+                            <a href="https://youtu.be/Hd5Zl5CW2XI" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_Marcel_Piano_Apr_1.jpg" alt="Marcel Piano April, part 1" style="border: 0" title="2013 Apr 27, Marcel Piano, part 1">
+                                <span style="color: blue; font-weight: bold">Marcel Piano April, part 1</span>
+                            </a>
+                            <!-- End Marcel Piano April part 1 2013 -->
+                        </div>
+
+                        <!-- 7 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano April part 2 2013 -->
+                            <a href="https://youtu.be/pUKp7KeOTXg" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2013_Marcel_Piano_Apr_2.jpg" alt="Marcel Piano April, part 2" style="border: 0" title="2013 Apr 27, Marcel Piano, part 2">
+                                <span style="color: blue; font-weight: bold">Marcel Piano April, part 2</span>
+                            </a>
+                            <!-- End Marcel Piano April part 2 2013 -->
+                        </div>
+
+                    </div>
+                </div>
+            
+                <!-- 2012 -->
+                <div id="2012" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2012</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel And Hilpi 2012 -->
+                            <a href="https://youtu.be/C9GsbJ9dCu8" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Marcel_And_Hilpi.jpg" alt="Marcel And Hilpi" style="border: 0" title="2012 Jan 12, Marcel And Hilpi">
+                                <span style="color: blue; font-weight: bold">Marcel And Hilpi</span>
+                            </a>
+                            <!-- End Marcel And Hilpi 2012 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Reading 2012 -->
+                            <a href="https://youtu.be/YVigxwxUb40" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Victor_Reading.jpg" alt="Victor Reading" style="border: 0" title="2012 Jan 22, Victor Reading">
+                                <span style="color: blue; font-weight: bold">Victor Reading</span>
+                            </a>
+                            <!-- End Victor Reading 2012 -->
+                        </div>
+                    
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Kiko Exam 2012 -->
+                            <a href="https://youtu.be/h1xdil5swlY" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Victor_Kiko_Exam.jpg" alt="Victor Kiko Exam" style="border: 0" title="2012 Jan 28, Victor Kiko Exam">
+                                <span style="color: blue; font-weight: bold">Victor Kiko Exam</span>
+                            </a>
+                            <!-- End Victor Kiko Exam 2012 -->
+                        </div>
+                    
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Pitajanmaki Show 2012 -->
+                            <a href="https://youtu.be/2lfvbjIiAyg" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Pitajanmaki_Show.jpg" alt="Pitajanmaki Show" style="border: 0" title="2012 Apr 24, Pitajanmaki Show">
+                                <span style="color: blue; font-weight: bold">Pitajanmaki Show</span>
+                            </a>
+                            <!-- End Pitajanmaki Show 2012 -->
+                        </div>
+                    
+                        <!-- 5 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano Apr 2012 -->
+                            <a href="https://youtu.be/BpEgOYCgTtw" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Victor_Piano_Apr.jpg" alt="Victor Piano April" style="border: 0" title="2012 Apr 24, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano April</span>
+                            </a>
+                            <!-- End Victor Piano Apr 2012 -->
+                        </div>
+                    
+                        <!-- 6 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel End Kindergarten Party part 1 2012 -->
+                            <a href="https://youtu.be/fYSs2ZKTWDY" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Marcel_End_Kindergarten_Party_1.jpg" alt="Marcel End Kindergarten Party, part 1" style="border: 0" title="2012 May 23, Marcel End Kindergarten Party, part 1">
+                                <span style="color: blue; font-weight: bold">Marcel End Kindergarten Party, part 1</span>
+                            </a>
+                            <!-- End Marcel End Kindergarten Party part 1 2012 -->
+                        </div>
+                    
+                        <!-- 7 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel End Kindergarten Party part 2 2012 -->
+                            <a href="https://youtu.be/c6UDN199u9E" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Marcel_End_Kindergarten_Party_2.jpg" alt="Marcel End Kindergarten Party, part 2" style="border: 0" title="2012 May 23, Marcel End Kindergarten Party, part 2">
+                                <span style="color: blue; font-weight: bold">Marcel End Kindergarten Party, part 2</span>
+                            </a>
+                            <!-- End Marcel End Kindergarten Party part 2 2012 -->
+                        </div>
+                    
+                        <!-- 8 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel First School Day 2012 -->
+                            <a href="https://youtu.be/5Xz8OVvCfmM" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Marcel_First_School_Day.jpg" alt="Marcel First School Day" style="border: 0" title="2012 Aug 20, Marcel First School Day">
+                                <span style="color: blue; font-weight: bold">Marcel First School Day</span>
+                            </a>
+                            <!-- End Marcel First School Day 2012 -->
+                        </div>
+                    
+                        <!-- 9 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano Nov 2012 -->
+                            <a href="https://youtu.be/9m2S4uKk0E0" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Victor_Piano_Nov.jpg" alt="Victor Piano November" style="border: 0" title="2012 Nov 08, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano November</span>
+                            </a>
+                            <!-- End Victor Piano Nov 2012 -->
+                        </div>
+                    
+                        <!-- 10 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano Nov 2012 -->
+                            <a href="https://youtu.be/Uc1u9Exiub8" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2012_Marcel_Piano_Nov.jpg" alt="Marcel Piano November" style="border: 0" title="2012 Nov 08, Marcel Piano">
+                                <span style="color: blue; font-weight: bold">Marcel Piano November</span>
+                            </a>
+                            <!-- End Marcel Piano Nov 2012 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2011 -->
+                <div id="2011" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2011</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano Mar 2011 -->
+                            <a href="https://youtu.be/yk8kRenvm30" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Victor_Piano_Mar.jpg" alt="Victor Piano March" style="border: 0" title="2011 Mar 24, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano March</span>
+                            </a>
+                            <!-- End Victor Piano MAr 2011 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Footbal 2011 -->
+                            <a href="https://youtu.be/6MwuMIh-8co" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Marcel_Footbal.jpg" alt="Marcel Footbal" style="border: 0" title="2011 Jun 01, Marcel Footbal">
+                                <span style="color: blue; font-weight: bold">Marcel Footbal</span>
+                            </a>
+                            <!-- End Marcel Footbal 2011 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Paintings 2011 -->
+                            <a href="https://youtu.be/9gwCgRW7NYM" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Paintings.jpg" alt="Paintings" style="border: 0" title="2011 Jun 29, Paintings">
+                                <span style="color: blue; font-weight: bold">Paintings</span>
+                            </a>
+                            <!-- End Paintings 2011 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano October 2011 -->
+                            <a href="https://youtu.be/GolWn8F7AO4" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Victor_Piano_Oct.jpg" alt="Victor Piano October" style="border: 0" title="2011 Oct 18, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano October</span>
+                            </a>
+                            <!-- End Victor Piano October 2011 -->
+                        </div>
+
+                        <!-- 5 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Piano October 2011 -->
+                            <a href="https://youtu.be/GAL7ksinaZw" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Marcel_Piano_Oct.jpg" alt="Marcel Piano October" style="border: 0" title="2011 Oct 18, Marcel Piano October">
+                                <span style="color: blue; font-weight: bold">Marcel Piano October</span>
+                            </a>
+                            <!-- End Marcel Piano October 2011 -->
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Kindergarten Nov 2011 -->
+                            <a href="https://youtu.be/ytM7VJ7KmjQ" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Marcel_Kindergarten_Nov.jpg" alt="Marcel Kindergarten November" style="border: 0" title="2011 Nov 11, Marcel Kindergarten November">
+                                <span style="color: blue; font-weight: bold">Marcel Kindergarten November</span>
+                            </a>
+                            <!-- End Marcel Kindergarten Nov 2011 -->
+                        </div>
+
+                        <!-- 7 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Kindergarten Dec-1 2011 -->
+                            <a href="https://youtu.be/6N-s0lvgPdQ" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Marcel_Kindergarten_Dec_1.jpg" alt="Marcel Kindergarten December, part 1" style="border: 0" title="2011 Dec 15, Marcel Kindergarten December, part 1">
+                                <span style="color: blue; font-weight: bold">Marcel Kindergarten December, part 1</span>
+                            </a>
+                            <!-- End Marcel Kindergarten Dec-1 2011 -->
+                        </div>
+
+                        <!-- 8 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Kindergarten Dec-2 2011 -->
+                            <a href="https://youtu.be/2-KjeutNJgU" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2011_Marcel_Kindergarten_Dec_2.jpg" alt="Marcel Kindergarten December, part 2" style="border: 0" title="2011 Dec 15, Marcel Kindergarten December, part 2">
+                                <span style="color: blue; font-weight: bold">Marcel Kindergarten December, part 2</span>
+                            </a>
+                            <!-- End Marcel Kindergarten Dec-2 2011 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2010 -->
+                <div id="2010" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2010</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Marcel Hockey 2010 -->
+                            <a href="https://youtu.be/GtVjDSAzK3c" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2010_Marcel_Hockey.jpg" alt="Marcel Hockey" style="border: 0" title="2010 Oct 17, Marcel Hockey">
+                                <span style="color: blue; font-weight: bold">Marcel Hockey</span>
+                            </a>
+                            <!-- End Marcel Hockey 2010 -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Piano 2010 -->
+                            <a href="https://youtu.be/e99C9ycsnEA" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2010_Victor_Piano.jpg" alt="Victor Piano" style="border: 0" title="2010 Dec 02, Victor Piano">
+                                <span style="color: blue; font-weight: bold">Victor Piano</span>
+                            </a>
+                            <!-- End Victor Piano 2010 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor School Show 2010 -->
+                            <a href="https://youtu.be/JYrr9kYE5XI" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2010_Victor_School_Show.jpg" alt="Victor School Show" style="border: 0" title="2010 Dec 21, Victor School Show">
+                                <span style="color: blue; font-weight: bold">Victor School Show</span>
+                            </a>
+                            <!-- End Victor School Show 2010 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2009 -->
+                <!-- <div id="2009" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                        <h2 style="text-align: left">2009</h2>
+                        <div class="masonry-grid row row-space-3">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+                       
+                    </div>
+                </div> -->
+
+                <!-- 2008 -->
+                <!-- <div id="2008" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2008</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+                       
+                    </div>
+                </!--div> -->              
+
+                <!-- 2007 -->
+                <div id="2007" style="border-style: solid; border-width: 0px">
+                    <br /><br />
+                    <h2 style="text-align: left">2007</h2>
+                    <div class="masonry-grid row row-space-3">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-5 col-md-5"></div>
+
+                        <!-- 1 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Hockey 2007, First Training -->
+                            <a href="https://youtu.be/pLInO8f5sNw" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_Victor_Hockey_First_Training.jpg" alt="Victor Hockey, First Training" style="border: 0" title="2007 Sep 01, Victor Hockey, First Training">
+                                <span style="color: blue; font-weight: bold">Victor Hockey, First Training</span>
+                            </a>
+                            <!-- End Victor Hockey 2007, First Training -->
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Hockey 2007 -->
+                            <a href="https://youtu.be/q7pbLl-Fg3o" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_Victor_Hockey.jpg" alt="Victor Hockey" style="border: 0" title="2007 Sep 09, Victor Hockey">
+                                <span style="color: blue; font-weight: bold">Victor Hockey</span>
+                            </a>
+                            <!-- End Victor Hockey 2007 -->
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Footbal 2007 -->
+                            <a href="https://youtu.be/0qySLu-e3yU" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_Victor_Footbal.jpg" alt="Victor Footbal" style="border: 0" title="2007 Sep 10, Victor Footbal">
+                                <span style="color: blue; font-weight: bold">Victor Footbal</span>
+                            </a>
+                            <!-- End Victor Footbal 2007 -->
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Kindergarten 2007 -->
+                            <a href="https://youtu.be/RIoegK9-Fpo" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_Victor_Kindergarten.jpg" alt="Victor Kindergarten" style="border: 0" title="2007 Nov 09, Victor Kindergarten">
+                                <span style="color: blue; font-weight: bold">Victor Kindergarten</span>
+                            </a>
+                            <!-- End Victor Kindergarten 2007 -->
+                        </div>
+                        
+                        <!-- 5 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- In Toys Land Part 1 2007 -->
+                            <a href="https://youtu.be/20zM5ojdTac" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_In_Toys_Land_Part_1.jpg" alt="In Toys Land Part 1" style="border: 0" title="2007 Nov 10, In Toys Land, part 1">
+                                <span style="color: blue; font-weight: bold">In Toys Land, part 1</span>
+                            </a>
+                            <!-- End In Toys Land Part 1 2007 -->
+                        </div>
+                        
+                        <!-- 6 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- In Toys Land Part 2 2007 -->
+                            <a href="https://youtu.be/mMvlkn4e-Io" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_In_Toys_Land_Part_2.jpg" alt="In Toys Land Part 2" style="border: 0" title="2007 Nov 10, In Toys Land, part 2">
+                                <span style="color: blue; font-weight: bold">In Toys Land, part 2</span>
+                            </a>
+                            <!-- End In Toys Land Part 2 2007 -->
+                        </div>
+                    
+                        <!-- 7 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Basketball Part 1 2007 -->
+                            <a href="https://youtu.be/iiFT9xxVytc" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_Victor_Basketball_Part_1.jpg" alt="Victor Basketball Part 1" style="border: 0" title="2007 Nov 24, Victor Basketball, part 1">
+                                <span style="color: blue; font-weight: bold">Victor Basketball, part 1</span>
+                            </a>
+                            <!-- End Victor Basketball Part 1 2007 -->
+                        </div>
+                    
+                        <!-- 8 -->
+                        <div class="masonry-grid-item col-xs-6 col-sm-5 col-md-5">
+                            <!-- Victor Basketball Part 2 2007 -->
+                            <a href="https://youtu.be/gbNkTc_7Ew8" target="_blank">
+                                <img class="full-width img-responsive" src="img/320x240/2007_Victor_Basketball_Part_2.jpg" alt="Victor Basketball Part 2" style="border: 0" title="2007 Nov 24, Victor Basketball, part 2">
+                                <span style="color: blue; font-weight: bold">Victor Basketball, part 2</span>
+                            </a>
+                            <!-- End Victor Basketball Part 2 2007 -->
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+        </div>
+    </div>
+</div>
+   
+<!-- Contact -->
+<div id="contact">
+    <div class="bg-color-sky-light">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="text-left sm-text-left">
+                        <h2 class="margin-b-0">Contact</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-9">
+                    <h5>Email</h5>
+                    <a href="mailto:&#116;&#111;&#116;&#097;&#098;&#111;&#103;&#097;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+                        &#116;&#111;&#116;&#097;&#098;&#111;&#103;&#097;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Contact -->    
+    
+     
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
 </body>
 </html>
